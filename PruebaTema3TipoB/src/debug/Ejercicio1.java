@@ -35,7 +35,7 @@ public class Ejercicio1 {
 		int[] result = new int[arr.length];
 		int pos = 0;
 		for(int i = 0; i < arr.length; i++) {
-			if (ocurrences(arr[i], arr) >= 1) {
+			if (ocurrences(arr[i], arr) > 1) {
 				if (contains(arr[i], result)) {
 					result[pos] = arr[i];
 					pos++;
